@@ -25,4 +25,4 @@
 ![Unknown_Face](unknow_test.png)
 
 - ## Door Opening
-- Press "space" to verify person.
+- Press "space" to verify person
