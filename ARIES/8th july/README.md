@@ -1,4 +1,4 @@
-# Door opening using facial recognition
+# Door Opening using Facial Recognition
 - ## Create Dataset
 - Using OpenCV for camera input and video output.
 - Detect face using Dlib frontal face detector which impliments Histogram of Oriented Gradients (HOG) .
