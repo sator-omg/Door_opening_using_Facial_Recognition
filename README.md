@@ -1,28 +1,28 @@
 # Door opening using facial recognition
-- ## Create dataset
-- using open cv for camera input and video output.
-- Detect face using dlib frontal face detector which impliments hog.
+- ## Create Dataset
+- Using OpenCV for camera input and video output.
+- Detect face using Dlib frontal face detector which impliments HOG.
 - Press "s" and enter your name to create folder for your name.
 - Press "space" to save cropped images in folder.
 
 - ## CNN
-![ALT](cnn_architech.png)
+![CNN](cnn_architech.png)
 
-- Finetunning DeepFace CNN Model for our dataset.
+- Fine-tuning DeepFace CNN Model for our dataset.
 
 - ## Face Embedding
--  using Finetunned cnn model to create Embedding matrix for images in dataset.
--  creating array of embedding matrices.
+-  Using Fine-tuned CNN model to create Embedding matrix for images in dataset.
+-  Creating array of Embedding matrices.
 
 - ## Prediction
-- using open cv for input from camera feed in realtime.
-- making embedding matrix for cropped input image from live camera feed.
-- finding euclidean distance by comparing embedding matrix of input image and saved embedding matrix.
-- using euclidean distance to identify person.
-### person identified
-![ALT](known_test.png)
-### unknown person
-![ALT](unknow_test.png)
+- Using OpenCV for input from camera feed in realtime.
+- Making Embedding matrix for cropped input image from live camera feed.
+- Finding Euclidean distance by comparing Embedding matrix of input image and saved Embedding matrix.
+- Using Euclidean distance to identify person.
+### Person Identified
+![Known_Face](known_test.png)
+### Unknown Person
+![Unknown_Face](unknow_test.png)
 
-- ## Door opening
+- ## Door Opening
 - Press "Space" to verify person.
